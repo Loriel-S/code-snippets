@@ -17,7 +17,9 @@ client
     // ...and buy it
     client.incomingPhoneNumbers
       .create({phoneNumber})
-      .then(purchasedNumber => console.log("SID:", purchasedNumber.sid))
+      .then(purchasedNumber => {
+        console.log("SID:", purchasedNumber.sid)
+      })
       .catch(err => console.error(err));
   })
   .catch(err => console.error(err));
