@@ -1,0 +1,6 @@
+&lt;Response>
+    &lt;Gather input="speech dtmf" timeout="3" numDigits="1">
+        &lt;Say voice="Polly.Matthew-Neural">For sales, please press 1 or say sales.&lt;/Say>
+    &lt;/Gather>
+  &lt;Say>We didn't receive any input. Goodbye!&lt;/Say>
+&lt;/Response>
