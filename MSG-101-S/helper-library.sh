@@ -1,1 +1,1 @@
-$ npm install twilio dotenv
+$ npm install twilio
